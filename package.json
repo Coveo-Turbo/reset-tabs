@@ -1,0 +1,36 @@
+{
+    "name": "@coveops/reset-tabs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "coveops build ResetTabs --template typescript",
+        "watch": "coveops build ResetTabs --template typescript --watch",
+        "serve": "coveops serve",
+        "precompile": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Coveo-Turbo/reset-tabs.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/Coveo-Turbo/reset-tabs/issues"
+    },
+    "homepage": "https://github.com/Coveo-Turbo/reset-tabs#readme",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "dependencies": {
+        "@coveops/localization-manager": "^1.0.1",
+        "@coveops/turbo-core": "^1.2.1",
+        "coveo-search-ui": "^2.10095.4"
+    },
+    "devDependencies": {
+        "@coveops/cli": "^0.17.0"
+    }
+}
