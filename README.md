@@ -46,6 +46,14 @@ Place the component in your markup:
 <div class="CoveoResetTabs"></div>
 ```
 
+## Options
+
+The following options can be configured:
+
+| Option | Required | Type | Default | Notes |
+| --- | --- | --- | --- | --- |
+| `defaultTabId` | No | string | `All` | The tab id that we will reset to. The value of this option is case-sensitive. |
+
 ## Extending
 
 Extending the component can be done as follows:
